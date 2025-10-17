@@ -22,7 +22,7 @@ export default function UserList() {
   return (
     <div>
       <Typography variant="h5" gutterBottom>
-        👤 Users
+        Users
       </Typography>
       <List>
         {users.map((u) => (
@@ -38,3 +38,4 @@ export default function UserList() {
     </div>
   );
 }
+
